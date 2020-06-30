@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Forma</title>
+</head>
+<body>
+
+    <form action="/" method="get">
+        <h2>Contact me</h2>
+        <div class="info-text">
+            <label for="fullname">Full Name</label><br>
+            <input type="text" name="" value="" placeholder="Enter Your Name" id="fullname" oninput="checkFullName()">
+            <small id="error-name">Error</small>
+        </div>
+        <div class="info-text">
+            <label for="email">Email</label><br>
+            <input type="email" name="" value="" placeholder="Enter Your Email"
+            id="email" oninput="checkEmail()">
+            <small id="error-email">Error</small>
+        </div>
+        <div class="info-text">
+            <label for="date">Date</label>
+            <input type="number" name="" value=""
+            placeholder="Enter your age" id="date" oninput="checkDate()">
+            <small id="error-date">Error</small>
+        </div>
+        <div class="info-text">
+            <label for="message">Message</label><br>
+            <textarea id="message" maxlength="100"></textarea>
+        </div>
+        <button type="submit" id="submit-btn"  onclick="end()" disabled>Submit</button>     
+        <button type="button" onclick="check()">Check</button>
+    </form>
+
+    <script src="form.js"></script>
+    
+</body>
+
+</html>
