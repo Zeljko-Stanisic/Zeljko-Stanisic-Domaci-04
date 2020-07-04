@@ -1,0 +1,16 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: aqua;
+}
+#wrapper {
+    margin: 2rem auto;
+    background-color: azure;
+    padding: 30px;
+    border: 2px solid brown;
+    border-radius: 7px;
+}
+input {
+    margin-bottom: 10px;
+}

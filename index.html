@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zadatak br.1</title>
+</head>
+<body> 
+    <div id="wrapper">
+        <form action="form.php" enctype="multipart/form-data" method="POST">
+            <h2>Zadatak 1</h2>
+    
+            <label>Ime i prezime</label>
+            <input type="text" name="fullName" placeholder="Ime i prezime"><br>
+            <label >Email</label>
+            <input type="text" name="email" placeholder="Email"><br>
+            <label>Broj telefona</label>
+            <input type="text" name="phoneNumber" placeholder="Broj telefona"><br>
+            <input type="file" name="image"><br>
+            <button value="submit">Submit</button>        
+        </form>
+    </div>
+</body>
+</html>
